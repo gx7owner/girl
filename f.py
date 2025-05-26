@@ -12,9 +12,9 @@ from telegram.ext import (
 
 # Replace with your actual bot tokens from BotFather
 TOKENS = [
-    'BOT_TOKEN_1',
-    'BOT_TOKEN_2',
-    'BOT_TOKEN_3'
+    '7448467310:AAFDMLHAUvZxcMc36A2TnMQ0z87P9yA6eME',
+    '8055461964:AAHHhpk_rgpmKU9tKzjsZvTuwoxwT91m1II',
+    '7733778188:AAGHo4uftj7amARScRRJKY8OfutFNz0IpQY'
 ]
 
 TEXT_FILE = 'text.txt'
