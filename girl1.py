@@ -6,7 +6,7 @@ from telegram.ext import (
 )
 
 # Your Telegram user ID (only you can upload photos or broadcast)
-OWNER_ID = 123456789  # <-- Replace with your actual Telegram user ID
+OWNER_ID = 7792814115  # <-- Replace with your actual Telegram user ID
 
 # Folder to save photos sent by you
 PHOTO_DIR = "saved_photos"
@@ -101,7 +101,7 @@ async def photo_upload_handler(update: Update, context: ContextTypes.DEFAULT_TYP
     await update.message.reply_text("Photo saved, baby!")
 
 def main():
-    app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
+    app = ApplicationBuilder().token("8101873350:AAGnX7gLQLSg5okJ38fhIkZ07VZfLAtcZ24").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("broadcast", broadcast))
